@@ -18,7 +18,7 @@ void insertionSort(ForwardIt begin, ForwardIt end, Compare comp = Compare()) {
   }
 }
 
-int main() {
+auto main() -> int {
   std::vector<int> intData = {3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5};
   insertionSort(intData.begin(), intData.end());
   for (const auto &element : intData) {
