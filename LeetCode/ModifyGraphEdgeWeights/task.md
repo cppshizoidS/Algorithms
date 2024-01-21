@@ -1,3 +1,5 @@
+# 2699 Modify Graph Edge Weights
+
 You are given an undirected weighted connected graph containing n nodes labeled from 0 to n - 1, and an integer array edges where edges[i] = [ai, bi, wi] indicates that there is an edge between nodes ai and bi with weight wi.
 
 Some edges have a weight of -1 (wi = -1), while others have a positive weight (wi > 0).
